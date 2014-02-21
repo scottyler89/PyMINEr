@@ -1,7 +1,5 @@
-PyMINEr is freely available by the GPL V2 license
-=======
+PyMINEr can be used in one of three ways
 
-PyMINEr can be used in one of three ways\n
 -------------------------------------------------
 Method1:
     PyMINEr will run the MINE analysis and feed the output directly in
@@ -20,7 +18,8 @@ Method3:
     do not perform network analysis, only return the mine analysis
     for a one group input.
 -------------------------------------------------
-Usage for Method1:\n
+Usage for Method1:
+
 python3 PyMINEr_[version].py -infile <raw_data_file.txt>
                              -dividing_col <int>
                              -MineDir <path> [options]
@@ -105,6 +104,7 @@ Options:
 
 -------------------------------------------------
 Usage for Method2:
+
 python3 PyMINEr_[version].py -infile <raw_data_file.txt>
                              -dividing_col <int>
                              -in_mine1 <mine_output_control>
@@ -163,6 +163,7 @@ analysis on the input data*
 -------------------------------------------------
 
 Usage for Method3:
+
 python3 PyMINEr_[version].py -infile <raw_data_file.txt>
                              -MineDir <path>
                              -single_network
